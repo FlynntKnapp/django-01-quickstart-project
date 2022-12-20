@@ -27,3 +27,7 @@
   * <http://localhost:8000/>
 
 ## Miscellaneous Commands and Snippets
+
+## Repository Links
+
+* [Django Quick-Start Project - `README.md`](../README.md)
