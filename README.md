@@ -6,6 +6,10 @@
 
 1. [Create Django Project](./process/01_create_django_project.md)
 
+## Functional Code Example Repository
+
+* <https://github.com/brucestull/django-quickstart-project>
+
 ## Repository Links
 
 * [Commands and Links](./notes/00_commands_and_links.md)
