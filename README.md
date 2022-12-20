@@ -2,6 +2,8 @@
 
 * Django basic project to introduce default Django `startproject`.
 
+## Resources
+
 ## Assumptions
 
 ## Process
