@@ -12,7 +12,7 @@
 
 ## Functional Code Example Repository
 
-* <https://github.com/brucestull/django-quickstart-project>
+* <https://github.com/FlynntKnapp/django-quickstart-project>
 
 ## Repository Links
 
