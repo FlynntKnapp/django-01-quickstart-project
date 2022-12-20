@@ -1,4 +1,4 @@
-# Django Quick-Start Project
+# Django Quick-Start Project Tutorial
 
 * Django basic project to introduce default Django `startproject`.
 
