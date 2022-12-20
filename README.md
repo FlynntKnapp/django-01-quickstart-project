@@ -2,6 +2,8 @@
 
 * Django basic project to introduce default Django `startproject`.
 
+## Assumptions
+
 ## Process
 
 1. [Create Django Project](./process/01_create_django_project.md)
