@@ -177,7 +177,6 @@
         ```
 
 1. Test development server:
-    * Note: The development server is running on port 8000 by default.  You can change the port by adding the port number to the end of the command, e.g. `python manage.py runserver 8010`.
     * `python manage.py runserver`
     * Sample console output:
 
@@ -195,6 +194,8 @@
         Starting development server at http://127.0.0.1:8000/
         Quit the server with CTRL-BREAK.
         ```
+
+    * Note: The development server is running on port 8000 by default.  You can change the port by adding the port number to the end of the command, e.g. `python manage.py runserver 8010`.
 
 1. Open the development server root URL in a browser and verify the Django greeen rocket is displayed:
     * <http://localhost:8000/>
