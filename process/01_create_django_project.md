@@ -235,5 +235,5 @@
 
 ## Repository Links
 
-* [Django Quick-Start Project](../)
-* [Django Quick-Start Project - `README.md`](../README.md)
+* [Django Quick-Start Project](https://github.com/FlynntKnapp/django-01-quickstart-project/)
+* [Django Quick-Start Project - `README.md`](https://github.com/FlynntKnapp/django-01-quickstart-project/blob/main/README.md)
