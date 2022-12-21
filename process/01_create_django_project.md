@@ -72,6 +72,7 @@
         * `Pipfile`
         * `Pipfile.lock`
     * These files are used by `pipenv` to manage the virtual environment and it's package dependencies.
+    * The actual files which will are contained in the virtual environment are not in the project directory. They are usually in a directory named `.venv` or `.virtualenvs` in your home directory.
     * Sample console output:
 
         ```console
@@ -91,6 +92,7 @@
 
 1. Activate virtual environment:
     * `pipenv shell`
+    * This command doesn't add any files to the project directory, it just activates the virtual environment so the project python files can use the packages installed in the virtual environment.
     * Sample console output:
 
         ```console
@@ -155,7 +157,7 @@
         PS C:\Users\FlynntKnapp\Programming\django-quickstart-project>
         ```
 
-1. Examine contents of new Django Project directory [`config`](../) . We will, in the future, be modifying `settings.py` and `urls.py`:
+1. Examine contents of new Django Project directory [`config`](../config/) . We will, in the future, be modifying `settings.py` and `urls.py`:
     * `Get-ChildItem config`:
         * An alternate command is `ls config`.
     * Sample console output:
@@ -201,10 +203,12 @@
     * <http://localhost:8000/>
     * Sample browser image:
         ![Django Development Server](../images/django-development-server.png)
-    * Sample console output:
+    * Relevant sample console output:
 
         ```console
+        ...
         [18/Dec/2022 10:58:34] "GET / HTTP/1.1" 200 10681
+        ...
         ```
 
 1. We now have a basic Django project which runs on the development server and displays a confirmation page in the browser when `DEBUG=True` in `settings.py`.  We can now start adding functionality to our project in the next section.
@@ -231,4 +235,5 @@
 
 ## Repository Links
 
+* [Django Quick-Start Project](../)
 * [Django Quick-Start Project - `README.md`](../README.md)
