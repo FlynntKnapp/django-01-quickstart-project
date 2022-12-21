@@ -157,7 +157,7 @@
         PS C:\Users\FlynntKnapp\Programming\django-quickstart-project>
         ```
 
-1. Examine contents of new Django Project directory [`config`](../config/) . We will, in the future, be modifying `settings.py` and `urls.py`:
+1. Examine contents of new Django Project directory [`config`](../config/) . We will, in the future, be modifying [`config/settings.py`](../config/settings.py) and [`urls.py`](../config/urls.py) files:
     * `Get-ChildItem config`:
         * An alternate command is `ls config`.
     * Sample console output:
